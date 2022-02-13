@@ -662,7 +662,7 @@ U 1 1 620E9613
 P 2700 5900
 F 0 "J3" H 2700 5900 50  0000 C CNN
 F 1 "Bus_PCI_Express_Mini" H 3250 4750 50  0000 C CNN
-F 2 "Connector_PCBEdge:BUS_PCI_Express_Mini_Full" H 2700 5900 50  0001 C CNN
+F 2 "Connector_PCBEdge:BUS_PCI_Express_Mini_Dual" H 2700 5900 50  0001 C CNN
 F 3 "~" H 2550 4750 50  0001 C CNN
 	1    2700 5900
 	1    0    0    -1  
@@ -821,7 +821,7 @@ Connection ~ 9400 5300
 Text GLabel 6650 1850 0    50   Input ~ 0
 SPI_CS
 Text GLabel 6650 2050 0    50   Input ~ 0
-SPI_CLK
+SPI_SCK
 Text GLabel 7650 1850 2    50   Input ~ 0
 SPI_MISO
 Text GLabel 7650 1750 2    50   Input ~ 0

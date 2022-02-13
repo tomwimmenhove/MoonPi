@@ -662,7 +662,7 @@ U 1 1 620E9613
 P 2700 5900
 F 0 "J3" H 2700 5900 50  0000 C CNN
 F 1 "Bus_PCI_Express_Mini" H 3250 4750 50  0000 C CNN
-F 2 "Connector_PCBEdge:BUS_PCI_Express_Mini_Full" H 2700 5900 50  0001 C CNN
+F 2 "Connector_PCBEdge:BUS_PCI_Express_Mini_Dual" H 2700 5900 50  0001 C CNN
 F 3 "~" H 2550 4750 50  0001 C CNN
 	1    2700 5900
 	1    0    0    -1  

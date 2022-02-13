@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name balmer_allwinner_v3s-rescue)(type Legacy)(uri ${KIPRJMOD}/balmer_allwinner_v3s-rescue.lib)(options "")(descr ""))
   (lib (name balmer_allwinner_v3s_v2-rescue)(type Legacy)(uri ${KIPRJMOD}/balmer_allwinner_v3s_v2-rescue.lib)(options "")(descr ""))
+  (lib (name custom)(type Legacy)(uri /home/tom/git/AllwinnerLte/hardware/custom.lib)(options "")(descr ""))
 )
