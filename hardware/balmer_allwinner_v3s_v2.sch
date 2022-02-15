@@ -1439,4 +1439,21 @@ F 3 "" H 9900 2950 50  0001 C CNN
 	1    9900 2950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C48
+U 1 1 62625E68
+P 10300 2800
+F 0 "C48" H 10415 2846 50  0000 L CNN
+F 1 "100n" H 10415 2755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10338 2650 50  0001 C CNN
+F 3 "~" H 10300 2800 50  0001 C CNN
+	1    10300 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2650 10300 2650
+Connection ~ 9900 2650
+Wire Wire Line
+	10300 2950 9900 2950
+Connection ~ 9900 2950
 $EndSCHEMATC
