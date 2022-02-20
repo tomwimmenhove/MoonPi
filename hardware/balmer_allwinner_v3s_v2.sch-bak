@@ -689,15 +689,6 @@ F 3 "" H 7850 6200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7850 6150 7850 6200
-Wire Wire Line
-	7850 5850 8250 5850
-Connection ~ 7850 5850
-Text Label 8000 5850 0    50   ~ 0
-RESET
-Wire Wire Line
-	6000 1600 6000 1950
-Text Label 6000 1850 1    50   ~ 0
-RESET
 $Sheet
 S 850  7250 550  200 
 U 5F26358A
@@ -1456,4 +1447,11 @@ Connection ~ 9900 2650
 Wire Wire Line
 	10300 2950 9900 2950
 Connection ~ 9900 2950
+Text GLabel 6000 1950 1    50   Input ~ 0
+RESET
+Text GLabel 7950 5850 2    50   Input ~ 0
+RESET
+Wire Wire Line
+	7950 5850 7850 5850
+Connection ~ 7850 5850
 $EndSCHEMATC
