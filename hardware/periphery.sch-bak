@@ -811,7 +811,7 @@ Text GLabel 6650 1850 0    50   Input ~ 0
 SPI_CS
 Text GLabel 6650 2050 0    50   Input ~ 0
 SPI_SCK
-Text GLabel 7650 1850 2    50   Input ~ 0
+Text GLabel 7950 1850 2    50   Input ~ 0
 SPI_MISO
 Text GLabel 7650 1750 2    50   Input ~ 0
 SPI_MOSI
@@ -1177,30 +1177,6 @@ UART0_TX
 Text GLabel 1050 3650 0    50   Input ~ 0
 UART0_RX
 $Comp
-L Switch:SW_MEC_5G SW1
-U 1 1 62909E2A
-P 5600 1800
-F 0 "SW1" H 5600 2085 50  0000 C CNN
-F 1 "SW_MEC_5G" H 5600 1994 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP" H 5600 2000 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5600 2000 50  0001 C CNN
-	1    5600 1800
-	1    0    0    -1  
-$EndComp
-Text GLabel 5400 1800 0    50   Input ~ 0
-SPI_SCK
-$Comp
-L power:GND #PWR0177
-U 1 1 6290BF0D
-P 5800 1800
-F 0 "#PWR0177" H 5800 1550 50  0001 C CNN
-F 1 "GND" H 5805 1627 50  0001 C CNN
-F 2 "" H 5800 1800 50  0001 C CNN
-F 3 "" H 5800 1800 50  0001 C CNN
-	1    5800 1800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_MEC_5G SW2
 U 1 1 62914EBE
 P 5500 2800
@@ -1224,4 +1200,15 @@ F 3 "" H 5700 2800 50  0001 C CNN
 $EndComp
 Text GLabel 5300 2800 0    50   Input ~ 0
 RESET
+$Comp
+L Device:R R?
+U 1 1 629C3A1F
+P 7800 1850
+F 0 "R?" V 7900 1850 50  0000 C CNN
+F 1 "0R" V 7800 1850 50  0000 C CNN
+F 2 "" V 7730 1850 50  0001 C CNN
+F 3 "~" H 7800 1850 50  0001 C CNN
+	1    7800 1850
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
