@@ -477,9 +477,9 @@ F 3 "" H 1050 3850 50  0001 C CNN
 	1    1050 3850
 	0    1    1    0   
 $EndComp
-Text GLabel 1000 5600 0    50   Input ~ 0
+Text GLabel 1850 5600 0    50   Input ~ 0
 USB-D+
-Text GLabel 1000 5700 0    50   Input ~ 0
+Text GLabel 1850 5700 0    50   Input ~ 0
 USB-D-
 Text GLabel 3400 3600 2    50   Input ~ 0
 UART0_TX
@@ -496,32 +496,6 @@ F 3 "" H 1050 3750 50  0001 C CNN
 $EndComp
 Text GLabel 3400 3500 2    50   Input ~ 0
 UART0_RX
-$Comp
-L Device:R R30
-U 1 1 5FE10647
-P 1300 5600
-F 0 "R30" V 1250 5350 50  0000 C CNN
-F 1 "33" V 1300 5600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1230 5600 50  0001 C CNN
-F 3 "~" H 1300 5600 50  0001 C CNN
-	1    1300 5600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R31
-U 1 1 5FE10E92
-P 1300 5700
-F 0 "R31" V 1250 5450 50  0000 C CNN
-F 1 "33" V 1300 5700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1230 5700 50  0001 C CNN
-F 3 "~" H 1300 5700 50  0001 C CNN
-	1    1300 5700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1150 5600 1000 5600
-Wire Wire Line
-	1150 5700 1000 5700
 Text Notes 8700 3050 0    50   ~ 0
 R18-R21 - вроде и без них Ethernet работает
 $Comp
@@ -1067,14 +1041,6 @@ Wire Wire Line
 Connection ~ 1400 7000
 Wire Wire Line
 	1400 7000 1850 7000
-Wire Wire Line
-	1450 5600 1850 5600
-Wire Wire Line
-	1450 5700 1850 5700
-Text Label 1450 5600 0    50   ~ 0
-USB_H-D+
-Text Label 1450 5700 0    50   ~ 0
-USB_H-D-
 $Comp
 L power:VCC #PWR0176
 U 1 1 62786CAF
