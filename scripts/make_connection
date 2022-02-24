@@ -1,0 +1,19 @@
+#!/bin/sh
+
+IF=`qmicli --device=/dev/cdc-wdm0 --device-open-proxy --get-wwan-iface`
+
+qmicli -d /dev/cdc-wdm0 --wds-start-network=apn='internet'  --client-no-release-cid 
+
+udhcpc -q -f -n -i  $IF
+
+echo Routing table after DHCP
+ip route list dev $IF
+
+route del default dev $IF
+
+echo Routing table after deleting default:
+ip route list dev $IF
+
+#386  qmi-network /dev/cdc-wdm0 start
+#387  udhcpc -q -f -n -i  $IF
+
