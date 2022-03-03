@@ -1,19 +1,21 @@
 #!/bin/sh
 
+systemctl stop ModemManager.service
+
 IF=`qmicli --device=/dev/cdc-wdm0 --device-open-proxy --get-wwan-iface`
 
-qmicli -d /dev/cdc-wdm0 --wds-start-network=apn='internet'  --client-no-release-cid 
+#echo N > /sys/class/net/$IF/qmi/raw_ip
+#qmicli -d /dev/cdc-wdm0 --wds-start-network=apn='internet'  --client-no-release-cid 
 
-udhcpc -q -f -n -i  $IF
+ifconfig $IF down
+echo Y > /sys/class/net/$IF/qmi/raw_ip
+ifconfig $IF up
 
-echo Routing table after DHCP
-ip route list dev $IF
+qmicli -d /dev/cdc-wdm0 --dms-set-operating-mode=online
+qmicli -d /dev/cdc-wdm0 --wds-set-autoconnect-settings=enabled
+qmicli -d /dev/cdc-wdm0 --device-open-net="net-raw-ip|net-no-qos-header" --wds-start-network="apn='internet',ip-type=4" --client-no-release-cid  
 
-route del default dev $IF
+qmicli -d /dev/cdc-wdm0  --wds-get-current-settings
 
-echo Routing table after deleting default:
-ip route list dev $IF
-
-#386  qmi-network /dev/cdc-wdm0 start
-#387  udhcpc -q -f -n -i  $IF
+udhcpc -f -s ./udhcpc_up.sh -i $IF
 

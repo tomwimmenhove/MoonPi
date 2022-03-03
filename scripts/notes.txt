@@ -1,2 +1,9 @@
+https://techship.com/faq/how-to-step-by-step-set-up-a-data-connection-over-qmi-interface-using-qmicli-and-in-kernel-driver-qmi-wwan-in-linux/
 https://electronproton.com/mmcli-command-examples/
-https://electronproton.com/mmcli-command-examples/
+From https://forums.quectel.com/t/quectel-eg25-connection-problem/8797/5
+ifconfig wwan0 down
+echo Y > /sys/class/net/wwan0/qmi/raw_ip
+ifconfig wwan0 up
+qmicli -d /dev/cdc-wdm0 --dms-set-operating-mode=online
+qmicli -p -d /dev/cdc-wdm0 --device-open-net=‘net-raw-ip|net-no-qos-header’ --wds-start-network=“autoconnect=no,apn=‘airteliot.com’,ip-type=4” --client-no-release-cid
+udhcpc -i wwan0
