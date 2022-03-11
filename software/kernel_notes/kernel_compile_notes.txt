@@ -1,3 +1,12 @@
+Repository: https://github.com/tomwimmenhove/linux
+
+Branch: licheepi-zero
+.config: kernel.config
+
+Cross compiler:
+Chain from:
+ - gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf
+
 cd linux
 make ARCH=arm licheepi_zero_defconfig
 make ARCH=arm menuconfig #add bluethooth, etc.
