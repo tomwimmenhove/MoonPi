@@ -412,17 +412,6 @@ Wire Wire Line
 	10500 4000 10500 3950
 Text GLabel 1350 1650 0    50   Input ~ 0
 SDC0_D2
-$Comp
-L balmer_allwinner_v3s_v2-rescue:Micro_SD_Card_Ebay-balmer J11
-U 1 1 5F2C4E0F
-P 2650 2050
-F 0 "J11" H 3480 2050 50  0000 L CNN
-F 1 "Micro_SD_Card_Ebay" H 3480 2050 50  0001 L CNN
-F 2 "balmer:Conn_uSDcard" H 3480 1959 50  0001 L CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 2650 2150 50  0001 C CNN
-	1    2650 2050
-	1    0    0    -1  
-$EndComp
 Text GLabel 1350 1750 0    50   Input ~ 0
 SDC0_D3
 Text GLabel 1400 1850 0    50   Input ~ 0
@@ -497,7 +486,7 @@ $EndComp
 Text GLabel 3400 3500 2    50   Input ~ 0
 UART0_RX
 Text Notes 8700 3050 0    50   ~ 0
-R18-R21 - possibly DNP
+Termination resistors - possibly DNP
 $Comp
 L Device:R R34
 U 1 1 5FFB3555
@@ -603,8 +592,8 @@ Wire Wire Line
 Wire Wire Line
 	1600 2750 1400 2750
 Connection ~ 1400 2750
-Text Notes 2000 1350 0    50   ~ 0
-R33-R36 optional?
+Text Notes 1300 1050 0    50   ~ 0
+Resistors optional?
 Connection ~ 850  1150
 Wire Wire Line
 	1750 1950 700  1950
@@ -1238,4 +1227,26 @@ F 3 "" H 5300 3900 50  0001 C CNN
 $EndComp
 Text GLabel 4850 4950 0    50   Input ~ 0
 SDC1_CLK
+$Comp
+L Connector:Micro_SD_Card J11
+U 1 1 62362F76
+P 2650 1950
+F 0 "J11" H 2600 2667 50  0000 C CNN
+F 1 "Micro_SD_Card" H 2600 2576 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Wuerth_693072010801" H 3800 2250 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 2650 1950 50  0001 C CNN
+	1    2650 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0178
+U 1 1 62381551
+P 3450 2550
+F 0 "#PWR0178" H 3450 2300 50  0001 C CNN
+F 1 "GND" H 3455 2377 50  0001 C CNN
+F 2 "" H 3450 2550 50  0001 C CNN
+F 3 "" H 3450 2550 50  0001 C CNN
+	1    3450 2550
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

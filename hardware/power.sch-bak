@@ -913,4 +913,6 @@ F 3 "" H 5050 1450 50  0001 C CNN
 	1    5050 1450
 	1    0    0    -1  
 $EndComp
+Text Notes 9300 1700 0    50   ~ 0
+Alternative switcher: DIO6011
 $EndSCHEMATC
