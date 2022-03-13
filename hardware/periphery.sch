@@ -497,7 +497,7 @@ $EndComp
 Text GLabel 3400 3500 2    50   Input ~ 0
 UART0_RX
 Text Notes 8700 3050 0    50   ~ 0
-R18-R21 - вроде и без них Ethernet работает
+R18-R21 - possibly DNP
 $Comp
 L Device:R R34
 U 1 1 5FFB3555
@@ -604,7 +604,7 @@ Wire Wire Line
 	1600 2750 1400 2750
 Connection ~ 1400 2750
 Text Notes 2000 1350 0    50   ~ 0
-R33-R36 скорее всего не нужны
+R33-R36 optional?
 Connection ~ 850  1150
 Wire Wire Line
 	1750 1950 700  1950
