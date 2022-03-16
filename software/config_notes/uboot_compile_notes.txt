@@ -1,0 +1,9 @@
+Repository: https://github.com/tomwimmenhove/u-boot
+
+Branch: v3s-current
+.config: uboot.config
+
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- LicheePi_Zero_defconfig
+make ARCH=arm menuconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -j8
+
