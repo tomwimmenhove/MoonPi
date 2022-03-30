@@ -1,7 +1,7 @@
-Repository: https://github.com/tomwimmenhove/linux
+Repository: https://github.com/tomwimmenhove/moonpi-linux
 
-Branch: licheepi-zero
-.config: kernel.config
+Branch: moonpi
+.config: the default config in that branch
 
 Cross compiler:
 Chain from:
