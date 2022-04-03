@@ -53,7 +53,7 @@ F 3 "" H 1350 5100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L moonpi_v2-rescue:AllwinnerV3S-moonpi U1
+L moonpi-rescue:AllwinnerV3S-moonpi U1
 U 1 1 5F2097DC
 P 4450 4700
 F 0 "U1" H 4450 4950 50  0000 L CNN

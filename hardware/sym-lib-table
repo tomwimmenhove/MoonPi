@@ -1,5 +1,4 @@
 (sym_lib_table
   (lib (name moonpi-rescue)(type Legacy)(uri ${KIPRJMOD}/moonpi-rescue.lib)(options "")(descr ""))
-  (lib (name moonpi_v2-rescue)(type Legacy)(uri ${KIPRJMOD}/moonpi_v2-rescue.lib)(options "")(descr ""))
   (lib (name custom)(type Legacy)(uri /home/tom/git/AllwinnerLte/hardware/custom.lib)(options "")(descr ""))
 )
