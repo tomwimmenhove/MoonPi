@@ -1,5 +1,8 @@
 A simple Linux-board with a mini PCIe slot for a 4G LTE module and a 100MBit ethernet port to use as a 4G router.
 
+![MoonPi](https://raw.githubusercontent.com/tomwimmenhove/AllwinnerLTE/main/hardware/pictures/moonpi1.png)
+![MoonPi rear](https://raw.githubusercontent.com/tomwimmenhove/AllwinnerLTE/main/hardware/pictures/moonpi2.png)
+
 Specs:
 - 100MBit ethernet
 - 64MB RAM
