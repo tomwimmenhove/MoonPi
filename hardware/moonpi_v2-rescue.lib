@@ -1,12 +1,12 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# AllwinnerV3S-balmer
+# AllwinnerV3S-moonpi
 #
-DEF AllwinnerV3S-balmer U 0 40 Y Y 1 F N
+DEF AllwinnerV3S-moonpi U 0 40 Y Y 1 F N
 F0 "U" 100 200 50 H V C CNN
-F1 "AllwinnerV3S-balmer" 150 -150 50 H V C CNN
-F2 "balmer:eLQFP-128_14x14mm_P0.4mm" 100 50 50 H I C CNN
+F1 "AllwinnerV3S-moonpi" 150 -150 50 H V C CNN
+F2 "moonpi:eLQFP-128_14x14mm_P0.4mm" 100 50 50 H I C CNN
 F3 "" -1050 450 50 H I C CNN
 DRAW
 T 0 -750 1850 50 0 0 0 CODEC Normal 0 C C
@@ -166,11 +166,11 @@ X EGND PAD -3050 -1750 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# EA3036-balmer
+# EA3036-moonpi
 #
-DEF EA3036-balmer U 0 40 Y Y 1 F N
+DEF EA3036-moonpi U 0 40 Y Y 1 F N
 F0 "U" 350 750 50 H V C CNN
-F1 "EA3036-balmer" -250 750 50 H V C CNN
+F1 "EA3036-moonpi" -250 750 50 H V C CNN
 F2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias" 300 850 50 H I C CNN
 F3 "" 100 0 50 H I C CNN
 DRAW
@@ -361,11 +361,11 @@ X ~ 9 100 600 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LCD_FPC40-balmer
+# LCD_FPC40-moonpi
 #
-DEF LCD_FPC40-balmer LCD 0 40 Y Y 1 F N
+DEF LCD_FPC40-moonpi LCD 0 40 Y Y 1 F N
 F0 "LCD" -150 2150 50 H V C CNN
-F1 "LCD_FPC40-balmer" -150 2050 50 H V C CNN
+F1 "LCD_FPC40-moonpi" -150 2050 50 H V C CNN
 F2 "Connector_FFC-FPC:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal" -50 1950 50 H I C CNN
 F3 "" 150 700 50 H I C CNN
 DRAW
@@ -414,12 +414,12 @@ X PAD MP -300 -2150 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Micro_SD_Card_Ebay-balmer
+# Micro_SD_Card_Ebay-moonpi
 #
-DEF Micro_SD_Card_Ebay-balmer J 0 40 Y Y 1 F N
+DEF Micro_SD_Card_Ebay-moonpi J 0 40 Y Y 1 F N
 F0 "J" -650 700 50 H V C CNN
-F1 "Micro_SD_Card_Ebay-balmer" 650 700 50 H V R CNN
-F2 "balmer:Conn_uSDcard" 2050 700 50 H I C CNN
+F1 "Micro_SD_Card_Ebay-moonpi" 650 700 50 H V R CNN
+F2 "moonpi:Conn_uSDcard" 2050 700 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
  microSD*
@@ -447,11 +447,11 @@ X CD 9 -900 -500 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PT4101-balmer
+# PT4101-moonpi
 #
-DEF PT4101-balmer U 0 40 Y Y 1 F N
+DEF PT4101-moonpi U 0 40 Y Y 1 F N
 F0 "U" -50 150 50 H V C CNN
-F1 "PT4101-balmer" 0 -250 50 H V C CNN
+F1 "PT4101-moonpi" 0 -250 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" 0 -300 50 H I C CNN
 F3 "" -50 -100 50 H I C CNN
 DRAW
@@ -465,11 +465,11 @@ X IN 6 -450 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# USB_B_Micro-Connector-balmer_allwinner_v3s-rescue
+# USB_B_Micro-Connector-moonpi-rescue
 #
-DEF USB_B_Micro-Connector-balmer_allwinner_v3s-rescue J 0 40 Y Y 1 F N
+DEF USB_B_Micro-Connector-moonpi-rescue J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "USB_B_Micro-Connector-balmer_allwinner_v3s-rescue" -200 350 50 H V L CNN
+F1 "USB_B_Micro-Connector-moonpi-rescue" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST

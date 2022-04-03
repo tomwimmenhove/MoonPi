@@ -512,12 +512,12 @@ X B 4 200 0 100 L 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# balmer_allwinner_v3s_v2-rescue_AllwinnerV3S-balmer
+# moonpi_v2-rescue_AllwinnerV3S-moonpi
 #
-DEF balmer_allwinner_v3s_v2-rescue_AllwinnerV3S-balmer U 0 40 Y Y 1 F N
+DEF moonpi_v2-rescue_AllwinnerV3S-moonpi U 0 40 Y Y 1 F N
 F0 "U" 100 200 50 H V C CNN
-F1 "balmer_allwinner_v3s_v2-rescue_AllwinnerV3S-balmer" 150 -150 50 H V C CNN
-F2 "balmer:eLQFP-128_14x14mm_P0.4mm" 100 50 50 H I C CNN
+F1 "moonpi_v2-rescue_AllwinnerV3S-moonpi" 150 -150 50 H V C CNN
+F2 "moonpi:eLQFP-128_14x14mm_P0.4mm" 100 50 50 H I C CNN
 F3 "" -1050 450 50 H I C CNN
 DRAW
 T 0 -750 1850 50 0 0 0 CODEC Normal 0 C C
@@ -677,11 +677,11 @@ X EGND PAD -3050 -1750 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# balmer_allwinner_v3s_v2-rescue_HR911105_RJ45-hr911105_rj45
+# moonpi_v2-rescue_HR911105_RJ45-hr911105_rj45
 #
-DEF balmer_allwinner_v3s_v2-rescue_HR911105_RJ45-hr911105_rj45 J 0 20 Y Y 1 F N
+DEF moonpi_v2-rescue_HR911105_RJ45-hr911105_rj45 J 0 20 Y Y 1 F N
 F0 "J" 500 550 50 H V R CNN
-F1 "balmer_allwinner_v3s_v2-rescue_HR911105_RJ45-hr911105_rj45" -50 -550 50 H V C CNN
+F1 "moonpi_v2-rescue_HR911105_RJ45-hr911105_rj45" -50 -550 50 H V C CNN
 F2 "HR911105_RJ45:HR911105_RJ45" 0 -625 50 H I C CNN
 F3 "" -415 -235 50 H I L TNN
 $FPLIST

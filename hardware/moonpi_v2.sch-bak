@@ -53,12 +53,12 @@ F 3 "" H 1350 5100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L balmer_allwinner_v3s_v2-rescue:AllwinnerV3S-balmer U1
+L moonpi_v2-rescue:AllwinnerV3S-moonpi U1
 U 1 1 5F2097DC
 P 4450 4700
 F 0 "U1" H 4450 4950 50  0000 L CNN
 F 1 "AllwinnerV3S" H 4300 4800 50  0000 L CNN
-F 2 "balmer:eLQFP-128_14x14mm_P0.4mm" H 4550 4750 50  0001 C CNN
+F 2 "moonpi:eLQFP-128_14x14mm_P0.4mm" H 4550 4750 50  0001 C CNN
 F 3 "" H 3400 5150 50  0001 C CNN
 	1    4450 4700
 	1    0    0    -1  

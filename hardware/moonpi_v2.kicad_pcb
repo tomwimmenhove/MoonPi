@@ -907,7 +907,7 @@
     )
   )
 
-  (module balmer:eLQFP-128_14x14mm_P0.4mm (layer F.Cu) (tedit 5F1C9BF1) (tstamp 620AA0F3)
+  (module moonpi:eLQFP-128_14x14mm_P0.4mm (layer F.Cu) (tedit 5F1C9BF1) (tstamp 620AA0F3)
     (at 110.3 116.45 90)
     (descr "LQFP, 128 Pin (https://www.renesas.com/eu/en/package-image/pdf/outdrawing/q128.14x14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "LQFP QFP")
@@ -1261,7 +1261,7 @@
     )
   )
 
-  (module balmer:HR911105_RJ45 (layer F.Cu) (tedit 5FFB11D4) (tstamp 620AC71D)
+  (module moonpi:HR911105_RJ45 (layer F.Cu) (tedit 5FFB11D4) (tstamp 620AC71D)
     (at 108.8 81.35 180)
     (tags HR911105_RJ45)
     (path /5F26358A/5F20EFFF)

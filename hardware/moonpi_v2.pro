@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=balmer_allwinner_v3s_v2.net
+LastNetListRead=moonpi_v2.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
