@@ -10,3 +10,7 @@ Specs:
 - 115k2 baud UART console/debugging interface (Optionally over USB)
 
 Thanks to [Dmitry Poskriyakov](https://github.com/balmerdx/AllwinnerV3S_KiCad) for creating the footprints for the used Allwinner V3S CPU.
+
+A kernel with a working .config can be found [here](https://github.com/tomwimmenhove/moonpi-linux)
+A U-boot .config is included in [this repository](https://github.com/tomwimmenhove/AllwinnerLTE/blob/main/software/config_notes/uboot.config) and a working version of U-Boot has been forked [here](https://github.com/tomwimmenhove/u-boot)
+
