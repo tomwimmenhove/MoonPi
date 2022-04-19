@@ -14,6 +14,6 @@ Specs:
 
 Thanks to [Dmitry Poskriyakov](https://github.com/balmerdx/AllwinnerV3S_KiCad) for creating the footprints for the used Allwinner V3S CPU.
 
-A kernel with a working .config can be found [here](https://github.com/tomwimmenhove/moonpi-linux)
-A U-boot .config is included in [this repository](https://github.com/tomwimmenhove/AllwinnerLTE/blob/main/software/config_notes/uboot.config) and a working version of U-Boot has been forked [here](https://github.com/tomwimmenhove/u-boot)
-
+Multiple kernel versions with working .config files can be found [here](https://github.com/tomwimmenhove/moonpi-linux/).
+A U-boot .config is included in [this repository](https://github.com/tomwimmenhove/AllwinnerLTE/blob/main/software/config_notes/uboot.config) and a working version of U-Boot has been forked [here](https://github.com/tomwimmenhove/u-boot).
+And finally, a working filesystem for the SD-card can be found [here](https://drive.google.com/drive/folders/1GH_1jrhb02dNxiufkJj9f3y94fUZBKtc)
