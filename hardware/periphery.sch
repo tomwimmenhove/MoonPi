@@ -770,7 +770,7 @@ Connection ~ 9900 4000
 Wire Wire Line
 	9900 4000 10150 4000
 Connection ~ 9400 5300
-Text GLabel 6650 1850 0    50   Input ~ 0
+Text GLabel 6150 1850 0    50   Input ~ 0
 SPI_CS
 Text GLabel 6650 2050 0    50   Input ~ 0
 SPI_SCK
@@ -1260,4 +1260,31 @@ $EndComp
 Wire Wire Line
 	1450 7000 1600 7000
 Connection ~ 1600 7000
+$Comp
+L Device:R R43
+U 1 1 628236EB
+P 6400 1700
+F 0 "R43" V 6500 1700 50  0000 C CNN
+F 1 "10k" V 6400 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6330 1700 50  0001 C CNN
+F 3 "~" H 6400 1700 50  0001 C CNN
+	1    6400 1700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 1850 6400 1850
+Connection ~ 6400 1850
+Wire Wire Line
+	6400 1850 6650 1850
+$Comp
+L power:+3V3 #PWR031
+U 1 1 6282849A
+P 6400 1550
+F 0 "#PWR031" H 6400 1400 50  0001 C CNN
+F 1 "+3V3" H 6415 1723 50  0000 C CNN
+F 2 "" H 6400 1550 50  0001 C CNN
+F 3 "" H 6400 1550 50  0001 C CNN
+	1    6400 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
